@@ -1,0 +1,17 @@
+{application, logsc,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {id, "git"},
+  {modules, []},
+  {registered, []},
+  {applications,
+   [
+    kernel,
+    stdlib,
+    ssh,
+    lager
+   ]},
+  {mod, {logsc_app, []}},
+  {env, []}
+ ]}.

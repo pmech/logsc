@@ -1,0 +1,5 @@
+
+{budda, "/var/log/syslog"}.
+{budda, "/var/log/auth.log"}.
+{budda, "/var/log/kern.log"}.
+{budda, "/home/pmm/projects/logsc/test.log"}.
